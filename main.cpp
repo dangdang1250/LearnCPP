@@ -50,7 +50,7 @@ int main(int argc, const char * argv[]) {
     //std::cout << non_repeat_string("Hello") << std::endl;
     //return 0;
     
-    /*int n=0;
+    int n=0;
     std::cout << "Please enter a integer (positive)number:";
     std::cin>>n;
     std::cout << fib(n) << std::endl;
