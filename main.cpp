@@ -26,6 +26,8 @@ int bad();
 int total();
 int write_file();
 int demo(bool shouldThrow);
+void demo_test();
+void solution();
 int main(int argc, const char * argv[]) {
     
     // insert code here...
@@ -33,7 +35,9 @@ int main(int argc, const char * argv[]) {
     ScopeTiming t;
     log.SetLogLevel(log.LogLevelInfo);
     log.LogInfo("Main Started");
+    /*
     total();
+    demo_test();
     try{
     demo(true);
     }catch (std::exception& e) {
