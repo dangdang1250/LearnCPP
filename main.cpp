@@ -29,12 +29,12 @@ int demo(bool shouldThrow);
 void demo_test();
 void solution();
 int main(int argc, const char * argv[]) {
-    
     // insert code here...
     SimpleLog log;
     ScopeTiming t;
     log.SetLogLevel(log.LogLevelInfo);
     log.LogInfo("Main Started");
+    solution();
     /*
     total();
     demo_test();
