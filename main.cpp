@@ -12,6 +12,7 @@
 #include <set>
 #include "ScopeTiming.h"
 #include "SimpleLog.h"
+#include <gtest/gtest.h>
 
 int most_frequent(std::vector<int> given_array);
 int insert_sorted(std::vector<int> given_array);
@@ -28,6 +29,15 @@ int write_file();
 int demo(bool shouldThrow);
 void demo_test();
 void solution();
+TEST(_test,AssertTrue){
+    ASSERT_TRUE(true);
+}
+int main(int argc, char **argv) {
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
+}
+
+/*
 int main(int argc, const char * argv[]) {
     // insert code here...
     SimpleLog log;
@@ -35,7 +45,7 @@ int main(int argc, const char * argv[]) {
     log.SetLogLevel(log.LogLevelInfo);
     log.LogInfo("Main Started");
     solution();
-    /*
+ 
     total();
     demo_test();
     try{
@@ -64,5 +74,6 @@ int main(int argc, const char * argv[]) {
     std::set<int> a {1,2,4,3,5};
     std::set<int> b {2,3,6,9};
     common_elements(a, b);
-     */
+ 
 }
+*/

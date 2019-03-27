@@ -4,7 +4,7 @@
 //  Created by ChengJixuan on 3/20/19.
 //  Copyright © 2019 ChengJixuan. All rights reserved.
 
-//  Learned this from ChernoProject Youtube channel[
+//  Learned this from ChernoProject Youtube channel
 //  How to use it, simply, create an object of this Class at the first line of you main()
 //  You will see the result of this function's timing.
 
