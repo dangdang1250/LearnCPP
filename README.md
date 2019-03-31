@@ -9,5 +9,6 @@ googletest
 # TODO
 - [X] Add I created problem solving template. first version. not bad!
 - [ ] Unit Test
+- [ ] The Art Of Readable Code
 
 # WOOPS, Let's get things done.
