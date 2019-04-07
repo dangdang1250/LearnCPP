@@ -26,3 +26,21 @@
     The destructor defines what happens when an object of the type ceases to exit. 
 
     Collectively, we'll refer to these operations as copy control.
+
+### Friend Declarations and Scope  
+    Even if we define the function inside the class, we must still provide a declaration outside of the class itself to amke that function visible.
+```C++
+struct X{
+    friend void f(){ /* friend function can be defined in the class body*/}
+    X() {f();} // error: no declaration for f
+    void g();
+    void h();
+};
+void X::g(){
+    return f(); // error : f hassn't been declared
+}
+void f(); // declare the function defined inside X
+void X::h(){
+    return f(); // now it is OK: declaration for f is now in scope
+}
+```
