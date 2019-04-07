@@ -2,6 +2,7 @@
 C++
 
  [Notes. Helpful concepts](Notes/collections.md)
+ [Notes. How to init vector correctly?](Notes/init_vector.md)
 # TODO 
 - [ ] C++Primer 5th
 - [ ] Object-Oriented Design
