@@ -1,4 +1,4 @@
 .vscode/
-*.txt
 a.out
-
+a.exe
+build/
