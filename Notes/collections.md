@@ -44,3 +44,18 @@ void X::h(){
     return f(); // now it is OK: declaration for f is now in scope
 }
 ```
+
+## Local static Objects
+It can be useful to have a local variable whose lifetime continues across calls to the function. We obtain such objects by defining a local variable as static. Each local static object is initialized before the first time execution passes through the object's definition. Local statics are not destroyed when a function ends; they are destroyed when the program terminates.
+
+- **static memory**: is used for local static objects, for class static data members and for variables defined out side any function.
+- **stack memory**: is used for nonstatic objects defined inside functions. 
+
+Objects allocated in static or stack memory are automatically created and destroyed by the compiler. **Stack** objects exist only while the block in which they are defined is executing; **static** objects are allocated before they are used, and they are destroyed when the program ends.
+
+In addition to static or stack memory, every program also has a pool of memory that it can use. This memory is referred to as the **free store** or **heap**. Programs use the heap for objects that they dynamiclly allocate -- that is , for objects that the program allocates at run time. 
+The program controls the lifetime of dynamic objects; our code must explicity destroy such objects when they are no longer needed.
+
+## "heap data structure" vs "heap memory"
+They are not related. "heap memory" means : a pile of stuff. 
+
