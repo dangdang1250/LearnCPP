@@ -1,4 +1,4 @@
-#include "templates.hpp"
+#include "templates.h"
 
 using namespace std;
 void mytest() {

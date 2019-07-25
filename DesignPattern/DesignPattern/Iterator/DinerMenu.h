@@ -11,6 +11,6 @@ public:
 
 private:
 	int numberOfItems = 0;
-	std::array<MenuItem> m_MenuItems;
+	std::array<MenuItem, MAX_ITEMS> m_MenuItems;
 };
 
