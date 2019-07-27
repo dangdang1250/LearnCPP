@@ -7,3 +7,5 @@ build/
 *.vcxproj.*
 Debug/
 CppProperties.json
+code1
+package.json
