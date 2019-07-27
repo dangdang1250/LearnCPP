@@ -2,3 +2,8 @@
 a.out
 a.exe
 build/
+.vs/
+*.vcxproj
+*.vcxproj.*
+Debug/
+CppProperties.json
