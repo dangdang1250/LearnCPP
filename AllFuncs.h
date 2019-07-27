@@ -16,9 +16,9 @@
 #include <set>
 #include "ScopeTiming.h"
 #include "SimpleLog.h"
-#include "templates/max.cpp"
-#include "templates/Accum.h"
-#include "templates/Accum.h"
+#include "max.cpp"
+#include "Accum.h"
+#include "Person.hpp"
 extern int most_frequent(std::vector<int> given_array);
 extern int insert_sorted(std::vector<int> given_array);
 extern char non_repeat_string(const std::string &st);

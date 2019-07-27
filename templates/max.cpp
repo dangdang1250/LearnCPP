@@ -11,7 +11,6 @@ using std::string;
 #include <iostream>
 using std::cout;
 using std::endl;
-#include "BankAccount.hpp"
 
 namespace MAX{
 template <class T>
