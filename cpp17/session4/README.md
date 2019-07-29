@@ -1,0 +1,8 @@
+- Function templates
+  - Parameterize a data type
+  - Single template function will support built-in and user defined data types
+  - Templatized function works like C-Style macro
+- Overloading function templates
+- Class templates
+- Explicit class specializations
+- Partial template specializations
