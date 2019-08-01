@@ -7,5 +7,7 @@ build/
 *.vcxproj.*
 Debug/
 CppProperties.json
+*googletest*
+packages.config
 code1
 package.json
