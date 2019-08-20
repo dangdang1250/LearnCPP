@@ -7,6 +7,4 @@ message("generator is set to ${CMAKE_GENERATOR}")
 
 project(code1 VERSION 0.0.1)
 project(code1 LANGUAGES CXX)
-# add_executable(code1 functions_on_the_run.cpp)
-# add_executable(code1 std_function.cpp)
-add_executable(code1 Factory.cpp BaseClass.cpp)
+add_executable(code1 ex02.cpp)

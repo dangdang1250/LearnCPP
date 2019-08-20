@@ -1,0 +1,37 @@
+cmake_minimum_required(VERSION 3.12)
+
+set(CMAKE_GENERATOR "Unix Makefiles")
+set (CMAKE_CXX_STANDARD 17)
+
+message("generator is set to ${CMAKE_GENERATOR}")
+
+project(code1 VERSION 0.0.1)
+project(code1 LANGUAGES CXX)
+# add_executable(code1 functions_on_the_run.cpp)
+# add_executable(code1 std_function.cpp)
+# add_executable(code1 concatenation.cpp)
+# add_executable(code1 combine.cpp)
+# add_executable(code1 transform_if.cpp)
+add_library(myclass myclass.cpp)
+# have to add CMakeLists.txt in to section3
+# add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/section3)
+
+#add_executable(code1 section3/cartesian_product.cpp)
+#find_package(PythonInterp REQUIRED)
+
+#${PYTHON_EXECUTABLE} --version
+#
+#execute_process(
+#	COMMAND
+#	${PYTHON_EXECUTABLE} "-c" "print 'hello,world'"
+#	RESULT_VARIABLE _status
+#	OUTPUT_VARIABLE _hello_world
+#	ERROR_QUIET
+#	OUTPUT_STRIP_TRAILING_WHITESPACE
+#)
+
+#message(STATUS "RESULT_VARIABLE is: ${_status}")
+#message(STATUS "OUTPUT_VARIABLE is: ${_hello_world}")
+
+include(CMakePrintHelpers)
+cmake_print_variables(_status _hello_world)
