@@ -9,3 +9,4 @@ Debug/
 CppProperties.json
 *googletest*
 packages.config
+*.doc*
