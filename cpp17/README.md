@@ -1,7 +1,7 @@
 New C++17 Features 
 
-g++ -std=c++17 -o code1 main.cpp
-
+g++ -std=c++17 -O2 -o code1 main.cpp
+otool -tv code1 # print out assemble code
 deduction
 
 ##Session1

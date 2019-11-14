@@ -10,3 +10,5 @@ CppProperties.json
 *googletest*
 packages.config
 *.doc*
+code1
+package.json
