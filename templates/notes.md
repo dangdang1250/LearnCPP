@@ -14,14 +14,14 @@
     - array
     - vector
 - Some are not:
-    - deque
+    - deque : The deque is a double-ended queue
     - forward_list
     - list
 
 ## Associative Containers
 - Elements stored in associative containers are accessed via their keys, and not by their position in the sequence
 - Their order can be more loosely defined and usually optimized for searching algorithms rather than humans:
-    - maps
+    - maps  
     - sets
     - unordered_maps
     - unordered_sets
@@ -47,9 +47,11 @@
 | unordered_set   |            |    |       |      |      |     |
 | vector          |     X      | X  |   X   |  X   |  X   |     |
 
- 
 
-
-
-
-
+## Types of Maps
+| Map Type           | Associative | Ordered | Mapped | Unique Keys | Hashing | Dynamic |
+| ------------------ | ----------- | ------- | ------ | ----------- | ------- | ------- |
+| map                |    X        |    X    |    X   |     X       |         |    X    |
+| multimap           |    X        |    X    |    X   |             |         |    X    |
+| unordered_map      |    X        |         |    X   |     X       |    X    |    X    |
+| unordered_multimap |    X        |         |    X   |             |    X    |    X    |
